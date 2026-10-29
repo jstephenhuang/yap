@@ -6,7 +6,7 @@ authors = [
     {name = "J.Stephen",email = "j.stephen.huang.developer@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10, <3.12"
+requires-python = ">=3.11, <3.12"
 
 [tool.poetry.dependencies]
 python-dotenv = ">=1.1.0,<2.0.0"
@@ -27,7 +27,7 @@ torchaudio = ">=2.4,<3.0"
 transformers = ">=4.45.1,<4.47.0"
 accelerate = "^1.10.0"
 safetensors = "^0.6.2"
-pillow = "^11.3.0"
+pillow = ">=13.0.0,<14.0.0"
 soundfile = "^0.13.1"
 nltk = "^3.9.1"
 ffmpeg-python = "^0.2.0"
